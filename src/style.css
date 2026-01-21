@@ -1,12 +1,27 @@
 h1{
-
+color: dusty pink;
 }
 
 p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-image{
+    height: 100px;
+    border-radius: 50px;
+}
+
+.forecast-image{
+    height: 100px;
 
 }
 
-img{
+.clock-image{
     height: 100px;
-    border-radius: 50px;
+
+}
+
+.poem-image{
+    height: 100px;
+
 }
