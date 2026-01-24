@@ -1,27 +1,86 @@
+body{
+    margin: 0%;
+
+}
+
 h1{
-color: dusty pink;
+color: rgb(243, 140, 174);
+font-size: 96px;
+text-align: center;
+
+}
+
+h2{
+
+   font-size: 30px;
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   color: rgb(15, 1, 49);
+   
+}
+
+h3{
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 p{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+display: flex;
+
+}
+
+.intro p{
+
+    font-weight: bold;
+    font-size: 36px;
+    color: rgb(15, 1, 49);
+    text-align: center;
+    margin-bottom:0;
+    
+}
+
+.top-container{
+    background-color: rgb(240, 196, 213);
+    padding-top: 100px;
+    
+
 }
 
 .profile-image{
     height: 100px;
     border-radius: 50px;
+    margin-left: 45%;
 }
 
+.middle-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px;
+    text-align: left;
+    row-gap: 2rem;
+    column-gap: 4rem;
+    }
+
+
 .forecast-image{
-    height: 100px;
+    
+    width: 500px;
 
 }
 
 .clock-image{
-    height: 100px;
+    
+    width: 500px;
 
 }
 
 .poem-image{
-    height: 100px;
+    
+    width: 500px;
 
 }
