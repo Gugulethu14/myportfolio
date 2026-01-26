@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    text-align: center;
 
 }
 
@@ -33,6 +34,14 @@ justify-content: center;
 
 }
 
+ a{
+     color: #f0a9b9;
+     font-family: "Montserrat", sans-serif;
+     margin: 10px 20px;
+     text-decoration: none;
+     text-align: center;
+ }
+
 .intro p{
 
     font-weight: bold;
@@ -61,7 +70,7 @@ justify-content: center;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     width: 50%;
-    margin: 100px;
+    margin-left: 10%;
     text-align: left;
     row-gap: 2rem;
     column-gap: 4rem;
@@ -71,6 +80,7 @@ justify-content: center;
 .forecast-image{
     
     width: 500px;
+   
 
 }
 
@@ -78,24 +88,34 @@ justify-content: center;
     
     width: 500px;
 
-}
-
-.poem-image{
-    
-    width: 500px;
 
 }
+
 
 .contact-btn{
 
     background: rgb(229, 132, 181);
     cursor: pointer;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
     color: white;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
-    margin-left: 45%;
-
+    margin-left: 65%;
     
+}
+
+
+.bottom-container {
+    background-color: #770749;
+    padding: 50px 0 20px;
+
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
